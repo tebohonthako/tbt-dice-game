@@ -31,6 +31,9 @@
 
       let result = document.querySelector('h1')
       result.innerHTML = ""
+
+    //  Try catch block to handle errors 
+      try {
       setTimeout(() => {
           let randomNumber1 = Math.floor(Math.random() * 6) + 1;
           let randomNumber2 = Math.floor(Math.random() * 6) + 1;
@@ -50,4 +53,8 @@
           }
 
       }, 2500);
-  }
+
+  } catch(error) {
+    // Displays error message 
+    console.log(error.message);
+  }}
