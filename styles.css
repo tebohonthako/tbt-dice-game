@@ -54,6 +54,7 @@ img {
 .btn:hover {
     background: #B7569A;
     text-decoration: none;
+    cursor:grabbing;
 }
 
 .even-roll {
@@ -64,9 +65,19 @@ transition: transform 1.25s ease-out;
 }
 .coded-by {
 position: absolute;
-top: 43rem;
-left: 38rem;
+top: 42rem;
+left: 36rem;
 color: black;
 font-size: 1.2rem;
 
+}
+#roll {
+    position: absolute;
+    left: 37rem;
+    top: 35rem;
+}
+#edit {
+    position: absolute;
+    left: 47rem;
+    top: 35rem;
 }
