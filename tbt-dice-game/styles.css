@@ -1,0 +1,83 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    background-color: #1c7293;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #b7569a;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #b7569a;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+   
+}
+
+.btn {
+    background: black;
+    font-family: "Indie Flower", cursive;
+    border-radius: 5rem;
+    color: #ffff;
+    font-size: 1.3rem;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #B7569A;
+    text-decoration: none;
+    cursor:grabbing;
+}
+
+.even-roll {
+transition: transform 1.5s ease-out;
+}
+.odd-roll {
+transition: transform 1.25s ease-out;
+}
+.coded-by {
+position: absolute;
+top: 42rem;
+left: 36rem;
+color: black;
+font-size: 1.2rem;
+
+}
+#roll {
+    position: absolute;
+    left: 37rem;
+    top: 35rem;
+}
+#edit {
+    position: absolute;
+    left: 47rem;
+    top: 35rem;
+}
