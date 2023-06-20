@@ -1,5 +1,5 @@
 # Dice game
-[DEMO LINK][(https://bradleymatjie.github.io/tbt-dice-game/)]
+[DEMO LINK](https://bradleymatjie.github.io/tbt-dice-game/)
 
 ## Technologies
 Project is created with:
